@@ -5,9 +5,9 @@ public class App {
         Scanner scan = new Scanner(System.in);
 
         try {
-            system.out.println("Masukkan angka pertama: ");
+        System.out.println("Masukkan angka pertama: ");
         int angka1 = scan.nextInt();
-        system.out.println("Masukkan angka kedua: ");
+        System.out.println("Masukkan angka kedua: ");
         int angka2 = scan.nextInt();
         
         int hasil = angka1 / angka2;
